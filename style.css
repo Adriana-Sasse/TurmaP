@@ -1,0 +1,18 @@
+p {
+ text-align: center; background-color: rgb(226, 43, 156);
+}
+h1 {
+    text-align: center; background-color: blue; font-size: xx-large;
+}
+h2 {
+    text-align: center; background-color: coral; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body {
+    
+}
+strong {
+    color: red;
+}
+h1 {
+    color: brown;
+}
