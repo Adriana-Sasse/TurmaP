@@ -102,7 +102,6 @@ h6 {
 img {
     height: 500px;
     width: 1000px;
-    text-align: right;???
 
 
 }
@@ -113,10 +112,26 @@ img {
     padding-right: 10px;
 
 }
+.agricultor {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+img {
+    height: 300px;
+    width: 600px;
+    
+}
+.foto {
+    text-align: center;
+    border: 1cm solid fuchsia;
+}
 
 
-
-
-
-
+.itens {
+    font-style: italic;
+    background-color: brown;
+}
 
