@@ -2,19 +2,16 @@ body {
     background-color: lightblue;
 }
 
-
 #foto {
 
     height: 370px;
-    width: 740px;  
-    
+    width: 740px;     
  }
  
 
-
 div {
     
-    border-color: aliceblue;
+    border-color: rgb(255, 0, 240);
     text-align: center;
     }
 
@@ -24,9 +21,7 @@ h1 {
     text-align: center;
     font-size: 1cm;
     
-    
 }
-
 
 
 p {
@@ -43,25 +38,6 @@ h2 {
     color: pink;
     text-align: left;
 }
-
-
-
-
-
-/*
-
-#banner {
-    height: 10cm;
-    width: 20cm;
-}
-
-div {
-    
-border-block-start-color: pink;
-text-align: center;
-
-}
-*/
 
 
 
@@ -85,6 +61,7 @@ h4 {
 h5 {
    text-align: center;
     font-size: medium;
+    
 }
 h6 {
    text-align: center;
@@ -99,39 +76,70 @@ h6 {
 }
 
 
-img {
-    height: 500px;
-    width: 1000px;
 
+img {
+    height: 150px;
+    width: 300px;
 
 }
 .segundafoto {
-    text-align: center;
     border: 10px solid rgb(255, 200, 20);
-    margin: 10px;
-    padding-right: 10px;
+    margin: 0px;
+    padding-right: 0px;
+    display: inline;
 
 }
-.agricultor {
-    width: 30%;
-    text-align: center;
-    margin: auto;
     
-}
 
-img {
-    height: 300px;
-    width: 600px;
-    
-}
-.foto {
+
+.dicas-de-leitura {
+    font-size: large;
+    background-color: blue;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
-    border: 1cm solid fuchsia;
+
+}
+
+.vermelho {
+    color: red;
 }
 
 
-.itens {
-    font-style: italic;
-    background-color: brown;
+
+.container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
 }
+.col-6 {
+    flex: auto;
+    width: 50%;
+
+}
+
+
+.col-3 {
+    flex: auto;
+    width: 25%;
+
+}
+.col-4 {
+    flex: auto;
+    width: 33.3333%;
+
+}
+
+
+
+
+
+
+
 
